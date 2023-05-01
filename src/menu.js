@@ -11,7 +11,7 @@ function createMenu() {
     menu.appendChild(
       createMenuItem(
         "Cheddar Burger",
-        "Beef patty, Cheddar, Tomato, Letuce"
+        "Beef patty, Cheddar, Tomato, Lettuce"
       )
     );
     menu.appendChild(
