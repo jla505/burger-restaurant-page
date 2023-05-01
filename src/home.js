@@ -2,13 +2,13 @@ function createHome() {
     const home = document.createElement("div");
     home.classList.add("home");
   
-    const chefImage = document.createElement("img");
-    chefImage.src = "images/chef.png";
-    chefImage.alt = "Chef";
+    const burgerImage = document.createElement("img");
+    burgerImage.src = "images/stockburger.png";
+    burgerImage.alt = "Burger";
   
     home.appendChild(createParagraph("Best burgers in Vancouver"));
     home.appendChild(createParagraph("Made with passion since 1998"));
-    home.appendChild(chefImage);
+    home.appendChild(burgerImage);
     home.appendChild(createParagraph("Order online or visit us!"));
   
     return home;
