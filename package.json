@@ -4,7 +4,7 @@
   "description": "restaurant page",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "test"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
